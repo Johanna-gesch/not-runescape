@@ -43,6 +43,7 @@ while (true)
     else if (input == "2")
     {
         Console.WriteLine("\n--- Drop Log ---");
+        Console.WriteLine("\n Total logged drops: " + bossLogs.Count);
         if (bossLogs.Count == 0) Console.WriteLine("No drops logged yet!");
         for (int i = 0; i < bossLogs.Count; i++)
         {
